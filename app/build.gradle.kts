@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId = "com.JDD.demo"
-        minSdk = Versions.TARGET_SDK
+        minSdk = Versions.MIN_SDK
         targetSdk = Versions.TARGET_SDK
         versionCode = Versions.VERSION_CODE
         versionName = Versions.VERSION_NAME
