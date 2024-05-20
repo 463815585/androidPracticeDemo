@@ -28,6 +28,23 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+//buildscript {
+//    repositories {
+//        maven(url="https://maven.aliyun.com/repository/public")
+//        maven(url="https://maven.aliyun.com/repository/central")
+//        maven(url="https://maven.aliyun.com/repository/jcenter")
+//        maven(url="https://maven.aliyun.com/repository/releases")
+//        maven(url="https://maven.aliyun.com/repository/gradle-plugin")
+//        google()
+//        mavenCentral()
+//    }
+//    dependencies{
+//        classpath("com.android.tools.build:gradle:7.2.2") // 适用于Kotlin 1.6.21的版本
+//        classpath("org.jetbrains.kotlin:kotlin-gradle-plugin:1.6.21")
+//    }
+//}
+//enableFeaturePreview("VERSION_CATALOGS")
+
 
 rootProject.name = "Demo"
 include(":app")

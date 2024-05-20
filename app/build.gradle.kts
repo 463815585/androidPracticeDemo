@@ -5,14 +5,14 @@ plugins {
 
 android {
     namespace = "com.JDD.demo"
-    compileSdk = Versions.COMPILE_SDK
+    compileSdk = libs.versions.appCompileSdk.get().toInt()
 
     defaultConfig {
         applicationId = "com.JDD.demo"
-        minSdk = Versions.MIN_SDK
-        targetSdk = Versions.TARGET_SDK
-        versionCode = Versions.VERSION_CODE
-        versionName = Versions.VERSION_NAME
+        minSdk = libs.versions.appMinSdk.get().toInt()
+        targetSdk = libs.versions.appTargetSdk.get().toInt()
+        versionCode = libs.versions.appVersionCode.get().toInt()
+        versionName = libs.versions.appVersionName.get()
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

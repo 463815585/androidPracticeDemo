@@ -1,0 +1,1 @@
+C:\Users\46381\AndroidStudioProjects\androidPracticeDemo\buildSrc\build\classes\kotlin\main\Versions.class

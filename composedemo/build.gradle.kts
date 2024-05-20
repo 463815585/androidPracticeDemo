@@ -43,7 +43,8 @@ android {
 
 dependencies {
 
-    implementation("org.jetbrains.kotlin:kotlin-stdlib:1.9.23")
+//    implementation("androidx.core:core-ktx:1.9.23")
+//    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.23")
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
